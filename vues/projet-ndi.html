@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../ressources/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script src="../js/translations.js" defer></script>
 </head>
 <body>
+<div class="language-selector">
+    <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
+    <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
+</div>
 <nav>
-    <a href="../index.html">Accueil</a>
-    <a href="infos.html">À propos</a>
-    <a href="../index.html#projets">Projets</a>
-    <a href="contact.html">Contact</a>
+    <a href="../index.html" data-translate="nav-home"></a>
+    <a href="infos.html" data-translate="nav-about"></a>
+    <a href="../index.html#projets" data-translate="nav-projects"></a>
+    <a href="contact.html" data-translate="nav-contact"></a>
 </nav>
 <!-- Contenu de la page -->
 <section class="project">
-    <h2>Projet PhP - Site d'avis de poursuite d'étude</h2>
+    <h2>Projet NDI - Site web sur l'eau et l'environnement</h2>
     <div class="about-content">
         <div class="about-text">
             <p>Lors d'un évènement nommé "La nuit de l'info" nous avons du réaliser un site web dans la nuit sur le thème de l'eau et l'environnement.</p><br>
