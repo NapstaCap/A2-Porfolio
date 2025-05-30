@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,82 +9,84 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="js/translations.js" defer></script>
 </head>
+
 <body>
-<div class="language-selector">
-    <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
-    <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
-</div>
-<nav>
-    <a href="#accueil" data-translate="nav-home"></a>
-    <a href="vues/infos.html" data-translate="nav-about"></a>
-    <a href="index.html#projets" data-translate="nav-projects"></a>
-    <a href="vues/contact.html" data-translate="nav-contact"></a>
-</nav>
-
-<section id="accueil" class="hero">
-    <div>
-        <h1>Dorian BARNIER</h1>
-        <p data-translate="hero-subtitle"></p>
+    <div class="language-selector">
+        <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
+        <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
     </div>
-</section>
+    <nav>
+        <a href="#accueil" data-translate="nav-home"></a>
+        <a href="vues/infos.html" data-translate="nav-about"></a>
+        <a href="index.html#projets" data-translate="nav-projects"></a>
+        <a href="vues/contact.html" data-translate="nav-contact"></a>
+    </nav>
 
-<section id="projets" class="projects">
-    <h2 data-translate="projects-title"></h2>
-    <div class="project-buttons">
-        <a href="vues/projet-java.html" class="btn" data-translate="btn-java"></a>
-        <a href="vues/projet-php.html" class="btn" data-translate="btn-php"></a>
-        <a href="vues/projet-ndi.html" class="btn" data-translate="btn-ndi"></a>
-    </div>
-</section>
-<section id="formations" class="formations">
-    <h2 data-translate="timeline-title"></h2>
-    <section class="timeline">
-        <div class="timeline-item">
-            <div class="timeline-content">
-                <div class="timeline-date">2024-2025</div>
-                <div class="timeline-title" data-translate="timeline-but2"></div>
-                <div class="timeline-subtitle" data-translate="timeline-iut"></div>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="timeline-content">
-                <div class="timeline-date">2023-2024</div>
-                <div class="timeline-title" data-translate="timeline-but1"></div>
-                <div class="timeline-subtitle" data-translate="timeline-iut"></div>
-            </div>
-        </div>
-
-        <div class="timeline-item">
-            <div class="timeline-content">
-                <div class="timeline-date">2022-2023</div>
-                <div class="timeline-title" data-translate="timeline-bac"></div>
-                <div class="timeline-subtitle" data-translate="timeline-lycee"></div>
-            </div>
+    <section id="accueil" class="hero">
+        <div>
+            <h1>Dorian BARNIER</h1>
+            <p data-translate="hero-subtitle"></p>
         </div>
     </section>
-</section>
-<footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3 data-translate="nav-about">À propos</h3>
-            <p data-translate="footer-text"></p>
+
+    <section id="projets" class="projects">
+        <h2 data-translate="projects-title"></h2>
+        <div class="project-buttons">
+            <a href="vues/projet-java.html" class="btn" data-translate="btn-java"></a>
+            <a href="vues/projet-php.html" class="btn" data-translate="btn-php"></a>
+            <a href="vues/projet-ndi.html" class="btn" data-translate="btn-ndi"></a>
+        </div>
+    </section>
+    <section id="formations" class="formations">
+        <h2 data-translate="timeline-title"></h2>
+        <section class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2024-2025</div>
+                    <div class="timeline-title" data-translate="timeline-but2"></div>
+                    <div class="timeline-subtitle" data-translate="timeline-iut"></div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2023-2024</div>
+                    <div class="timeline-title" data-translate="timeline-but1"></div>
+                    <div class="timeline-subtitle" data-translate="timeline-iut"></div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">2022-2023</div>
+                    <div class="timeline-title" data-translate="timeline-bac"></div>
+                    <div class="timeline-subtitle" data-translate="timeline-lycee"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-translate="nav-about"></h3>
+                <p data-translate="footer-text"></p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html" data-translate="nav-home"></a></li>
+                    <li><a href="vues/infos.html" data-translate="nav-about">À </a></li>
+                    <li><a href="index.html#projets" data-translate="nav-projects"></a></li>
+                    <li><a href="vues/contact.html" data-translate="nav-contact"></a></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="footer-section">
-            <h3>Navigation</h3>
-            <ul class="footer-links">
-                <li><a href="index.html" data-translate="nav-home"></a></li>
-                <li><a href="vues/infos.html" data-translate="nav-about">À </a></li>
-                <li><a href="index.html#projets" data-translate="nav-projects"></a></li>
-                <li><a href="vues/contact.html" data-translate="nav-contact"></a></li>
-            </ul>
+        <div class="footer-bottom">
+            <p data-translate="footer-rights"></p>
         </div>
-    </div>
-
-    <div class="footer-bottom">
-        <p data-translate="footer-rights"></p>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>

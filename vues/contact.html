@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,55 +10,58 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
     <script src="../js/translations.js" defer></script>
 </head>
+
 <body>
-<div class="language-selector">
-    <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
-    <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
-</div>
-<nav>
-    <a href="../index.html" data-translate="nav-home"></a>
-    <a href="infos.html" data-translate="nav-about"></a>
-    <a href="../index.html#projets" data-translate="nav-projects"></a>
-    <a href="contact.html" data-translate="nav-contact"></a>
-</nav>
-
-<section class="contact">
-    <h2 data-translate="contact-title"></h2>
-    <div class="contact-buttons">
-        <a href="mailto:votre.email@example.com" class="btn btn-email">
-            <i class="fas fa-envelope"></i>
-            Email
-        </a>
-        <a href="https://linkedin.com/in/dorian-barnier" target="_blank" class="btn btn-linkedin">
-            <i class="fab fa-linkedin"></i>
-            LinkedIn
-        </a>
-        <a href="../ressources/CV-BARNIERD.pdf" download="CV-BARNIERD.pdf" class="btn btn-cv" data-translate="btn-cv">
-            <i class="fas fa-file-alt"></i>
-        </a>
+    <div class="language-selector">
+        <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
+        <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
     </div>
-</section>
-<footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>À propos</h3>
-            <p>Étudiant en deuxième année de BUT Informatique à l'IUT Montpellier-Sète</p>
+    <nav>
+        <a href="../index.html" data-translate="nav-home"></a>
+        <a href="infos.html" data-translate="nav-about"></a>
+        <a href="../index.html#projets" data-translate="nav-projects"></a>
+        <a href="contact.html" data-translate="nav-contact"></a>
+    </nav>
+
+    <section class="contact">
+        <h2 data-translate="contact-title"></h2>
+        <div class="contact-buttons">
+            <a href="mailto:votre.email@example.com" class="btn btn-email">
+                <i class="fas fa-envelope"></i>
+                Email
+            </a>
+            <a href="https://linkedin.com/in/dorian-barnier" target="_blank" class="btn btn-linkedin">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+            </a>
+            <a href="../ressources/CV-BARNIERD.pdf" download="CV-BARNIERD.pdf" class="btn btn-cv"
+                data-translate="btn-cv">
+                <i class="fas fa-file-alt"></i>
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-translate="nav-about"></h3>
+                <p data-translate="footer-text"></p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul class="footer-links">
+                    <li><a href="../index.html" data-translate="nav-home"></a></li>
+                    <li><a href="infos.html" data-translate="nav-about"></a></li>
+                    <li><a href="../index.html#projets" data-translate="nav-projects"></a></li>
+                    <li><a href="contact.html" data-translate="nav-contact"></a></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="footer-section">
-            <h3>Navigation</h3>
-            <ul class="footer-links">
-                <li><a href="../index.html">Accueil</a></li>
-                <li><a href="infos.html">À propos</a></li>
-                <li><a href="../index.html#projets">Projets</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <div class="footer-bottom">
+            <p data-translate="footer-rights"></p>
         </div>
-    </div>
-
-    <div class="footer-bottom">
-        <p>&copy; 2025 Dorian BARNIER. Tous droits réservés.</p>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>

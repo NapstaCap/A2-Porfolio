@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,120 +10,115 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
     <script src="../js/translations.js" defer></script>
 </head>
+
 <body>
-<div class="language-selector">
-    <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
-    <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
-</div>
-<nav>
-    <a href="../index.html" data-translate="nav-home"></a>
-    <a href="infos.html" data-translate="nav-about"></a>
-    <a href="../index.html#projets" data-translate="nav-projects"></a>
-    <a href="contact.html" data-translate="nav-contact"></a>
-</nav>
-<!-- Contenu de la page -->
-<section class="project">
-    <h2>Projet PhP - Site d'avis de poursuite d'étude</h2>
-    <div class="about-content">
-        <div class="about-text">
-            <p>Dans un contexte où les parcours académiques deviennent de plus en plus diversifiés et compétitifs, les
-                établissements d'enseignement supérieur sont confrontés à devoir évaluer efficacement les
-                candidatures des étudiants en vue de leur admission ou de leur poursuite d'études.</p><br>
-            <p>Les processus d’évaluation actuels sont souvent peu ergonomiques, manuels, et dispersés entre différents
-                outils, ce qui peut engendrer une perte d’efficacité.</p><br>
-            <p>Ce projet vise à répondre à ce besoin en proposant une plateforme numérique sous forme de site web
-                dédiée aux universités ainsi qu’au responsable de poursuite d’études du département Informatique de
-                l’IUT Montpellier-Sète. Celle-ci permet aux jurys d’évaluation d’exprimer leur avis sur la candidature
-                de chaque élève en utilisant des mentions telles que très favorable, favorable ou réservé ainsi qu’un commentaire.</p><br>
-            <p>L'objectif principal de ce projet était à la fois d'appliquer l'apprentissage des méthodes agiles dans
-                un projet, mais aussi d'utiliser l'apprentissage du langage PhP et l'utilisation de phpMyAdmin</p>
-        </div>
-        <div class="skills-asked">
-            <h2 > Compétences demandée</h2>
-            <div class="competences-list">
-                <div class="competence-item">
-                    <div class="competence-icon">
-                        <i class="fab fa-php"></i>
+    <div class="language-selector">
+        <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
+        <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
+    </div>
+    <nav>
+        <a href="../index.html" data-translate="nav-home"></a>
+        <a href="infos.html" data-translate="nav-about"></a>
+        <a href="../index.html#projets" data-translate="nav-projects"></a>
+        <a href="contact.html" data-translate="nav-contact"></a>
+    </nav>
+    <!-- Contenu de la page -->
+    <section class="project">
+        <h2 data-translate="php-title"></h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p data-translate="php-text1"></p><br>
+                <p data-translate="php-text2"></p><br>
+                <p data-translate="php-text3"></p><br>
+                <p data-translate="php-text4"></p>
+            </div>
+            <div class="skills-asked">
+                <h2 data-translate="project-skills"></h2>
+                <div class="competences-list">
+                    <div class="competence-item">
+                        <div class="competence-icon">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <div class="competence-text">PHP</div>
                     </div>
-                    <div class="competence-text">PHP</div>
-                </div>
 
-                <div class="competence-item">
-                    <div class="competence-icon">
-                        <i class="fas fa-database"></i>
+                    <div class="competence-item">
+                        <div class="competence-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="competence-text">MySQL</div>
                     </div>
-                    <div class="competence-text">MySQL</div>
-                </div>
 
-                <div class="competence-item">
-                    <div class="competence-icon">
-                        <i class="fab fa-docker"></i>
+                    <div class="competence-item">
+                        <div class="competence-icon">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <div class="competence-text">Docker</div>
                     </div>
-                    <div class="competence-text">Docker</div>
-                </div>
 
-                <div class="competence-item">
-                    <div class="competence-icon">
-                        <i class="fab fa-git-alt"></i>
+                    <div class="competence-item">
+                        <div class="competence-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="competence-text">Git</div>
                     </div>
-                    <div class="competence-text">Git</div>
-                </div>
 
-                <div class="competence-item">
-                    <div class="competence-icon">
-                        <i class="fas fa-users"></i>
+                    <div class="competence-item">
+                        <div class="competence-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="competence-text" data-translate="project-group"></div>
                     </div>
-                    <div class="competence-text">Travail en groupe</div>
-                </div>
 
-                <div class="competence-item">
-                    <div class="competence-icon">
-                        <i class="fas fa-sync-alt"></i>
+                    <div class="competence-item">
+                        <div class="competence-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <div class="competence-text" data-translate="project-agile"></div>
                     </div>
-                    <div class="competence-text">Méthodes Agiles</div>
                 </div>
             </div>
+            <div class="projet-item">
+                <a href="../ressources/pageConnexion.png">
+                    <img src="../ressources/pageConnexion.png" alt="Connexion">
+                </a>
+                <a href="../ressources/pagePrincipale.png">
+                    <img src="../ressources/pagePrincipale.png" alt="Page principale">
+                </a>
+                <a href="../ressources/UploadCSV.png">
+                    <img src="../ressources/UploadCSV.png" alt="Page upload csv">
+                </a>
+                <a href="../ressources/TableauEtu.png">
+                    <img src="../ressources/TableauEtu.png" alt="Tableau étudiants">
+                </a>
+            </div>
         </div>
-        <div class="projet-item">
-            <a href="../ressources/pageConnexion.png">
-                <img src="../ressources/pageConnexion.png" alt="Connexion">
-            </a>
-            <a href="../ressources/pagePrincipale.png">
-                <img src="../ressources/pagePrincipale.png" alt="Page principale">
-            </a>
-            <a href="../ressources/UploadCSV.png">
-                <img src="../ressources/UploadCSV.png" alt="Page upload csv">
-            </a>
-            <a href="../ressources/TableauEtu.png">
-                <img src="../ressources/TableauEtu.png" alt="Tableau étudiants">
-            </a>
+        <div class="project-buttons">
+            <a href="../ressources/rapportProjet.pdf" download="rapportProjet.pdf" class="btn" data-translate="php-report"></a>
         </div>
-    </div>
-    <div class="project-buttons">
-        <a href="../ressources/rapportProjet.pdf" download="rapportProjet.pdf" class="btn">Rapport de projet</a>
-    </div>
-</section>
-<footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>À propos</h3>
-            <p>Étudiant en deuxième année de BUT Informatique à l'IUT Montpellier-Sète</p>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-translate="nav-about"></h3>
+                <p data-translate="footer-text"></p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul class="footer-links">
+                    <li><a href="../index.html" data-translate="nav-home"></a></li>
+                    <li><a href="infos.html" data-translate="nav-about"></a></li>
+                    <li><a href="../index.html#projets" data-translate="nav-projects"></a></li>
+                    <li><a href="contact.html" data-translate="nav-contact"></a></li>
+                </ul>
+            </div>
         </div>
 
-        <div class="footer-section">
-            <h3>Navigation</h3>
-            <ul class="footer-links">
-                <li><a href="../index.html">Accueil</a></li>
-                <li><a href="infos.html">À propos</a></li>
-                <li><a href="../index.html#projets">Projets</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <div class="footer-bottom">
+            <p data-translate="footer-rights"></p>
         </div>
-    </div>
-
-    <div class="footer-bottom">
-        <p>&copy; 2025 Dorian BARNIER. Tous droits réservés.</p>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>

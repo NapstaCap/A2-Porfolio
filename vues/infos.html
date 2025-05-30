@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,147 +9,154 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
   <script src="../js/translations.js" defer></script>
 </head>
+
 <body>
-<div class="language-selector">
-  <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
-  <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
-</div>
-<nav>
-  <a href="../index.html" data-translate="nav-home"></a>
-  <a href="infos.html" data-translate="nav-about"></a>
-  <a href="../index.html#projets" data-translate="nav-projects"></a>
-  <a href="contact.html" data-translate="nav-contact"></a>
-</nav>
-
-<div class="about-skills-container">
-<section class="about">
-  <div class="about-content">
-    <h2>À propos de moi</h2>
-    <div class="about-text">
-      <!-- Zone de texte pour la présentation -->
-      <p>Je m'appelle Dorian BARNIER, étudiant en deuxième année de BUT Informatique à l'IUT Montpellier-Sète, dans la
-        filière Réalisation d'Applications : Conception, Développement et Validation (RACDV).
-        Passionné par les jeux vidéo et les sports d'équipes comme le volley-ball, je m'investis avec enthousiasme dans tout ce que j'entreprends,
-        que ce soit dans mes projets académiques ou personnels.</p><br>
-      <p>Durant mon parcours, j'ai acquis des compétences solides dans des technologies telles que PHP, HTML, CSS,
-        SQL, et Java mais j'ai également développé des aptitudes en gestion de projet, notamment grâce à l'utilisation
-        d'outils comme Git, Trello mais aussi via l'apprentissage des méthodes agiles.</p><br>
-      <p>Mes expériences incluent principalement des projets collaboratifs, ce qui m'a permis de renforcer mes capacités
-        à travailler efficacement en équipe, de la conception à la livraison d'une solution.</p><br>
-      <p>Mon objectif est de continuer à apprendre, à me dépasser et à contribuer activement à des projets innovants et stimulants.</p>
-    </div>
+  <div class="language-selector">
+    <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
+    <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
   </div>
-</section>
+  <nav>
+    <a href="../index.html" data-translate="nav-home"></a>
+    <a href="infos.html" data-translate="nav-about"></a>
+    <a href="../index.html#projets" data-translate="nav-projects"></a>
+    <a href="contact.html" data-translate="nav-contact"></a>
+  </nav>
 
-<section class="skills">
-  <h2>Mes Compétences</h2>
-  <div class="skills-container">
-    <div class="skill-item">
-      <div class="skill-info">
-        <span class="skill-name">PHP</span>
-        <span class="skill-percentage">90%</span>
+  <div class="about-skills-container">
+    <section class="about">
+      <div class="about-content">
+        <h2 data-translate="about-title"></h2>
+        <div class="about-text">
+          <!-- Zone de texte pour la présentation -->
+          <p>Je m'appelle Dorian BARNIER, étudiant en deuxième année de BUT Informatique à l'IUT Montpellier-Sète, dans
+            la
+            filière Réalisation d'Applications : Conception, Développement et Validation (RACDV).
+            Passionné par les jeux vidéo et les sports d'équipes comme le volley-ball, je m'investis avec enthousiasme
+            dans tout ce que j'entreprends,
+            que ce soit dans mes projets académiques ou personnels.</p><br>
+          <p>Durant mon parcours, j'ai acquis des compétences solides dans des technologies telles que PHP, HTML, CSS,
+            SQL, et Java mais j'ai également développé des aptitudes en gestion de projet, notamment grâce à
+            l'utilisation
+            d'outils comme Git, Trello mais aussi via l'apprentissage des méthodes agiles.</p><br>
+          <p>Mes expériences incluent principalement des projets collaboratifs, ce qui m'a permis de renforcer mes
+            capacités
+            à travailler efficacement en équipe, de la conception à la livraison d'une solution.</p><br>
+          <p>Mon objectif est de continuer à apprendre, à me dépasser et à contribuer activement à des projets innovants
+            et stimulants.</p>
+        </div>
       </div>
-      <div class="skill-bar">
-        <div class="skill-progress" style="width: 90%"></div>
-      </div>
-    </div>
+    </section>
 
-    <div class="skill-item">
-      <div class="skill-info">
-        <span class="skill-name">Java</span>
-        <span class="skill-percentage">90%</span>
-      </div>
-      <div class="skill-bar">
-        <div class="skill-progress" style="width: 90%"></div>
-      </div>
-    </div>
+    <section class="skills">
+      <h2 data-translate="skills-title"></h2>
+      <div class="skills-container">
+        <div class="skill-item">
+          <div class="skill-info">
+            <span class="skill-name">PHP</span>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%"></div>
+          </div>
+        </div>
 
-    <div class="skill-item">
-      <div class="skill-info">
-        <span class="skill-name">JavaFX</span>
-        <span class="skill-percentage">70%</span>
-      </div>
-      <div class="skill-bar">
-        <div class="skill-progress" style="width: 70%"></div>
-      </div>
-    </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span class="skill-name">Java</span>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%"></div>
+          </div>
+        </div>
 
-    <div class="skill-item">
-      <div class="skill-info">
-        <span class="skill-name">C</span>
-        <span class="skill-percentage">50%</span>
-      </div>
-      <div class="skill-bar">
-        <div class="skill-progress" style="width: 50%"></div>
-      </div>
-    </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span class="skill-name">JavaFX</span>
+            <span class="skill-percentage">70%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%"></div>
+          </div>
+        </div>
 
-    <div class="skill-item">
-      <div class="skill-info">
-        <span class="skill-name">HTML</span>
-        <span class="skill-percentage">100%</span>
-      </div>
-      <div class="skill-bar">
-        <div class="skill-progress" style="width: 100%"></div>
-      </div>
-    </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span class="skill-name">C</span>
+            <span class="skill-percentage">50%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 50%"></div>
+          </div>
+        </div>
 
-    <div class="skill-item">
-      <div class="skill-info">
-        <span class="skill-name">CSS</span>
-        <span class="skill-percentage">90%</span>
-      </div>
-      <div class="skill-bar">
-        <div class="skill-progress" style="width: 90%"></div>
-      </div>
-    </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span class="skill-name">HTML</span>
+            <span class="skill-percentage">100%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 100%"></div>
+          </div>
+        </div>
 
-    <div class="skill-item">
-      <div class="skill-info">
-        <span class="skill-name">SQL</span>
-        <span class="skill-percentage">85%</span>
-      </div>
-      <div class="skill-bar">
-        <div class="skill-progress" style="width: 85%"></div>
-      </div>
-    </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span class="skill-name">CSS</span>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%"></div>
+          </div>
+        </div>
 
-    <div class="skill-item">
-      <div class="skill-info">
-        <span class="skill-name">PL/SQL</span>
-        <span class="skill-percentage">70%</span>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span class="skill-name">SQL</span>
+            <span class="skill-percentage">85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-info">
+            <span class="skill-name">PL/SQL</span>
+            <span class="skill-percentage">70%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%"></div>
+          </div>
+        </div>
       </div>
-      <div class="skill-bar">
-        <div class="skill-progress" style="width: 70%"></div>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
-
-
-<footer class="footer">
-  <div class="footer-content">
-    <div class="footer-section">
-      <h3>À propos</h3>
-      <p>Étudiant en deuxième année de BUT Informatique à l'IUT Montpellier-Sète</p>
-    </div>
-
-    <div class="footer-section">
-      <h3>Navigation</h3>
-      <ul class="footer-links">
-        <li><a href="../index.html">Accueil</a></li>
-        <li><a href="infos.html">À propos</a></li>
-        <li><a href="../index.html#projets">Projets</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
+    </section>
   </div>
 
-  <div class="footer-bottom">
-    <p>&copy; 2025 Dorian BARNIER. Tous droits réservés.</p>
-  </div>
-</footer>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3 data-translate="nav-about"></h3>
+        <p data-translate="footer-text"></p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Navigation</h3>
+        <ul class="footer-links">
+                    <li><a href="../index.html" data-translate="nav-home"></a></li>
+                    <li><a href="infos.html" data-translate="nav-about"></a></li>
+                    <li><a href="../index.html#projets" data-translate="nav-projects"></a></li>
+                    <li><a href="contact.html" data-translate="nav-contact"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p data-translate="footer-rights"></p>
+    </div>
+  </footer>
 
 </body>
+
 </html>
