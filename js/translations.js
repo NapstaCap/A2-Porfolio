@@ -12,6 +12,8 @@ const translations = {
         'btn-java': 'Projet Java',
         'btn-php': 'Projet PHP',
         'btn-ndi': 'Projet NDI',
+        'apprentissage-title': `Mon Portfolio d'Apprentissage`,
+        'btn-apprentissage2': 'Deuxième année',
 
         // Page contact
         'contact-title': 'Me Contacter',
@@ -91,10 +93,12 @@ const translations = {
 
         // Page d'accueil
         'hero-subtitle': 'Student in Computer Science BUT',
-        'projects-title': 'My projects',
+        'projects-title': 'My Projects',
         'btn-java': 'Java Project',
         'btn-php': 'Php Project',
         'btn-ndi': 'NDI Project',
+        'apprentissage-title': `My Learning Portfolio`,
+        'btn-apprentissage2': 'Second year',
 
         // Page contact
         'contact-title': 'Contact Me',
