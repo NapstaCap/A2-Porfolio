@@ -9,9 +9,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
     <script src="../js/translations.js" defer></script>
+    <script src="../js/loading.js" defer></script>
 </head>
 
 <body>
+<div id="loadingOverlay" class="loading-overlay">
+    <div class="loading-container">
+        <!-- Option 1: Spinner classique -->
+        <div class="loading-spinner"></div>
+
+        <!-- Option 2: Points qui rebondissent (commenté) -->
+        <!--
+        <div class="loading-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        -->
+
+        <!-- Option 3: Barre de progression (commenté) -->
+        <!--
+        <div class="loading-bar-container">
+            <div class="loading-bar"></div>
+        </div>
+        -->
+
+        <div class="loading-text">Chargement...</div>
+    </div>
+</div>
 <div class="language-selector">
     <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
     <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
