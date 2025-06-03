@@ -12,6 +12,7 @@ const translations = {
         'btn-java': 'Projet Java',
         'btn-php': 'Projet PHP',
         'btn-ndi': 'Projet NDI',
+        'btn-stage-ecosm' : 'Stage chez ECOSM',
         'apprentissage-title': `Mon Portfolio d'Apprentissage`,
         'btn-apprentissage2': 'Deuxième année',
 
@@ -100,6 +101,20 @@ const translations = {
         'apprentissage-skill4': `Compétence 4 : Gérer des données de l’information`,
         'apprentissage-skill5': `Compétence 5 : Conduire un projet`,
         'apprentissage-skill6': `Compétence 6 : Collaborer au sein d’une équipe informatique`,
+
+        // Stage ECOSM
+        'ecosm-title': `Stage chez ECOSM - Développement Web/Développement Logiciel`,
+        'ecosm-text1': `Lors de ma deuxième année en BUT Informatique à l'IUT Montpellier-Sète, un stage de 10 à 12 semaines m'a été imposé.
+        Les contraintes de temps étant très restreintes je n'ai pu avoir qu'un stage de 8 semaines au sein de l'entreprise ECOSM, 
+        une entreprise spécialisée dans la conception de logiciels pour les médias.`,
+        'ecosm-text2': `Ce stage s’inscrit donc dans un projet de développement consacré à un logiciel dédié à 
+        l’édition de sous-titres ainsi qu’un site web destiné à la gestion de médias. Ces projets m’ont permis 
+        d’explorer des défis techniques liés à l’optimisation, l’ergonomie mais notamment l'expérience du point de vue 
+        de l’utilisateur. Tout cela m’a permis de consolider mes compétences en développement informatique, mais aussi 
+        dans ma logique et la façon dont j’organise mes chemins de pensées.`,
+        'ecosm-text3': `Bien que la durée de ce stage fut courte, ce fut une experience plus que bénéfique, 
+        j'ai pu explorer de multiples compétences, accompagné de personnes très bienveillante et très pédagogue, avec des projets vraiment interessants.`,
+        'ecosm-solo': 'Travail seul supervisé'
     },
     en: {
         // Navigation
@@ -114,6 +129,7 @@ const translations = {
         'btn-java': 'Java Project',
         'btn-php': 'Php Project',
         'btn-ndi': 'NDI Project',
+        'btn-stage-ecosm' : 'Internship at ECOSM',
         'apprentissage-title': `My Learning Portfolio`,
         'btn-apprentissage2': 'Second year',
 
@@ -202,6 +218,19 @@ const translations = {
         'apprentissage-skill4': `Skill 4 : Manage information data`,
         'apprentissage-skill5': `Skill 5 : Lead a project`,
         'apprentissage-skill6': `Skill 6 : Collaborate as an IT team`,
+
+        // Stage ECOSM
+        'ecosm-title': `Internship at ECOSM - Web Development/Software Development`,
+        'ecosm-text1': `During my second year in BUT Informatique at the IUT Montpellier-Sète, an internship of 10 to 12 weeks was imposed on me.
+        The time constraints being very limited, I was only able to have an 8-week internship at ECOSM, 
+        a company specialising in the design of media software.`,
+        'ecosm-text2': `This internship is therefore part of a development project dedicated to a software dedicated 
+        to the editing of subtitles and a website for media management. These projects allowed me to explore technical 
+        challenges related to optimization, ergonomics but especially the experience from the user’s point of view. All 
+        this allowed me to consolidate my skills in computer development, but also in my logic and the way I organize my paths of thought.`,
+        'ecosm-text3': `Although the duration of this internship was short, it was a more than beneficial experience, 
+        I was able to explore multiple skills, accompanied by very caring people and very pedagogue, with really interesting projects.`,
+        'ecosm-solo': 'Work alone supervised'
     }
 };
 

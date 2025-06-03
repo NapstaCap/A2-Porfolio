@@ -760,6 +760,29 @@ nav a:hover {
     }
 }
 
+/* Responsive breakpoints */
+@media (max-width: 768px) {
+    .projet-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projet-item a {
+        min-width: 280px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .projet-item {
+        gap: 15px;
+    }
+
+    .projet-item a {
+        min-width: 100%;
+    }
+}
+
 
 
 
