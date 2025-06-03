@@ -83,6 +83,23 @@ const translations = {
         'ndi-text': `Lors d'un évènement nommé "La nuit de l'info" nous avons du réaliser en groupe un site web dans la nuit sur le
                     thème de l'eau et l'environnement.`,
         'ndi-website': `Le site web`,
+
+        // Apprentissage
+        'skill3': 'Compétence 3',
+        'skill4': 'Compétence 4',
+        'skill5': 'Compétence 5',
+        'niv1skill3': 'Niveau 1 : Installer et configurer un poste de travail',
+        'niv2skill3': 'Niveau 2 : Déployer des services dans une architecture réseau',
+        'niv1skill4': `Niveau 1 : Concevoir et mettre en place une base de données à partir d'un cahier des charges client`,
+        'niv2skill4': 'Niveau 2 : Optimiser une base de données, intéragir avec une application et mettre en oeuvre la sécurité',
+        'niv1skill5': 'Niveau 1 : Identifier les besoins métiers des clients et des utilisateurs',
+        'niv2skill5': 'Niveau 2 : Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs',
+        'apprentissage-skill1': `Compétence 1 : Réaliser un développement d'application`,
+        'apprentissage-skill2': `Compétence 2 : Optimisation des applications`,
+        'apprentissage-skill3': `Compétence 3 : Administrer des systèmes informatiques communicants complexes`,
+        'apprentissage-skill4': `Compétence 4 : Gérer des données de l’information`,
+        'apprentissage-skill5': `Compétence 5 : Conduire un projet`,
+        'apprentissage-skill6': `Compétence 6 : Collaborer au sein d’une équipe informatique`,
     },
     en: {
         // Navigation
@@ -168,6 +185,23 @@ const translations = {
         'ndi-text': `During an event called "The night of the info" we had to realize a website in the night on the
                     water and the environment.`,
         'ndi-website': `The website`,
+
+        // Apprentissage
+        'skill3': 'Skill 3',
+        'skill4': 'Skill 4',
+        'skill5': 'Skill 5',
+        'niv1skill3': 'Level 1 : Install and configure a workstation',
+        'niv2skill3': 'Level 2 : Deploy services in a network architecture',
+        'niv1skill4': `Level 1 : Design and implement a database based on a client specification`,
+        'niv2skill4': 'Level 2 : Optimize a database, interact with an application and implement security',
+        'niv1skill5': 'Level 1 : Identify business needs of customers and users',
+        'niv2skill5': 'Level 2 : Apply a project monitoring approach based on the business needs of clients and users',
+        'apprentissage-skill1': 'Skill 1 : Develop an application',
+        'apprentissage-skill2': `Skill 2 : Optimizing Applications`,
+        'apprentissage-skill3': `Skill 3 : Administer complex communicating computer systems`,
+        'apprentissage-skill4': `Skill 4 : Manage information data`,
+        'apprentissage-skill5': `Skill 5 : Lead a project`,
+        'apprentissage-skill6': `Skill 6 : Collaborate as an IT team`,
     }
 };
 
