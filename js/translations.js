@@ -18,6 +18,7 @@ const translations = {
         'btn-java': 'Projet Java',
         'btn-php': 'Projet PHP',
         'btn-ndi': 'Projet NDI',
+        'btn-twig': 'Projet Twig',
         'btn-stage-ecosm' : 'Stage chez ECOSM',
         'apprentissage-title': `Mon Portfolio d'Apprentissage`,
         'btn-apprentissage2': 'Deuxième année',
@@ -215,6 +216,18 @@ const translations = {
         'skill3-text3': `Je n'ai pas de projets sur ce portfolio pour illustrer cette compétence, 
         j'ai appris en debut de première année à installer un poste Linux, puis en deuxième année un deux machines virtuelles Windows et Linux.`,
         'skill3-text4': `Je n'ai pas de projets sur ce portfolio pour illustrer cette compétence. `,
+
+        /*
+        ------------- Projet Twig ---------------------
+         */
+
+        'twig-title': `Projet Twig - Réécriture d'une application web complexe`,
+        'twig-text1': `Lors du deuxième semestre de ma deuxième année de BUT Informatique à l'IUT Montpellier-Sète, 
+        il nous a été donné en guise de SAE, une application web totalement décousue, mal développée et mal organisée.`,
+        'twig-text2': `L'objectif était donc de réécrire cette application web en appliquant les notions apprisent 
+        lors des TD, allant de la conception de routeur, mis en place de services, appels de vues Twig, appels API etc.`,
+        'twig-text3': `Cette SAE est encore en cours de réalisation.`,
+
     },
     en: {
         /*
@@ -235,6 +248,7 @@ const translations = {
         'btn-java': 'Java Project',
         'btn-php': 'Php Project',
         'btn-ndi': 'NDI Project',
+        'btn-twig': 'Twig Project',
         'btn-stage-ecosm' : 'Internship at ECOSM',
         'apprentissage-title': `My Learning Portfolio`,
         'btn-apprentissage2': 'Second year',
@@ -430,6 +444,17 @@ const translations = {
         'skill3-text2': `I don’t have projects on this portfolio to illustrate this skill, nevertheless I use GitLab and GitHub on all my projects.`,
         'skill3-text3': `I do not have projects on this portfolio to illustrate this skill, 
         I learned in the first year to install a Linux machine, then in the second year a two virtual machines Windows and Linux.`,
+
+        /*
+        ------------- Projet Twig ---------------------
+         */
+
+        'twig-title': `Twig project - Rewriting a complex web application`,
+        'twig-text1': `During the second semester of my second year of BUT Informatique at the IUT Montpellier-Sète, 
+        we were given as SAE, a totally disjointed web application, poorly developed and poorly organized.`,
+        'twig-text2': `The objective was therefore to rewrite this web application by applying the concepts learned 
+        during the TD, ranging from router design, set-up services, Twig views calls, API calls etc.`,
+        'twig-text3': `This SAE is still under construction.`,
     }
 };
 
