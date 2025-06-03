@@ -430,7 +430,6 @@ const translations = {
         'skill3-text2': `I don’t have projects on this portfolio to illustrate this skill, nevertheless I use GitLab and GitHub on all my projects.`,
         'skill3-text3': `I do not have projects on this portfolio to illustrate this skill, 
         I learned in the first year to install a Linux machine, then in the second year a two virtual machines Windows and Linux.`,
-        'skill3-text4': `I do not have projects on this portfolio to illustrate this skill.`,
     }
 };
 
