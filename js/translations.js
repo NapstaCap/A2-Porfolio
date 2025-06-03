@@ -25,6 +25,20 @@ const translations = {
         // Page à propos
         'about-title': 'À propos de moi',
         'skills-title': 'Mes Compétences',
+        'about-text1': `Je m'appelle Dorian BARNIER, étudiant en deuxième année de BUT Informatique à 
+        l’IUT Montpellier-Sète, dans la filière Réalisation d'Applications : Conception, Développement et Validation (RACDV).`,
+        'about-text2': `Passionné par l’univers des jeux vidéo, je m’intéresse tout particulièrement aux jeux 
+        indépendants, souvent créés avec passion et sincérité, ce qui donne naissance à de véritables chefs-d’œuvre. 
+        J’ai également une grande curiosité musicale : j’aime explorer tous les styles, découvrir de nouveaux sons et 
+        les partager avec mes amis. En parallèle, je pratique le volleyball depuis deux à trois ans, de manière non 
+        compétitive mais avec enthousiasme, car j’apprécie l’aspect collectif et dynamique des sports d’équipe.`,
+        'about-text3': `J’éprouve un réel plaisir à programmer et à développer des applications, particulièrement 
+        depuis un stage marquant que j’ai réalisé chez ECOSM, une entreprise spécialisée dans la conception de logiciels 
+        de sous-titrage. Cette expérience m’a permis de découvrir le lien passionnant entre informatique et audiovisuel, 
+        un domaine dans lequel j’aimerais aujourd’hui m’investir davantage.`,
+        'about-text4': `À l’issue de mon BUT, j’aimerais entrer directement dans le monde professionnel en tant que 
+        développeur, idéalement dans le secteur de l’audiovisuel. Je garde cependant l’option de m’engager dans un 
+        master sur Paris ouverte, afin de continuer à développer mes compétences et saisir de nouvelles opportunités.`,
 
         // Timeline
         'timeline-title': 'Mes formations',
@@ -143,6 +157,20 @@ const translations = {
         // Page à propos
         'about-title': 'About Me',
         'skills-title': 'My Skills',
+        'about-text1': `My name is Dorian BARNIER, a second-year student at IUT Montpellier-Sète’s BUT Computer Science 
+        department, in the Application Design, Development and Validation (RACDV) sector.`,
+        'about-text2': `Passionate about the world of video games, I am particularly interested in independent games, 
+        often created with passion and sincerity, which gives rise to real masterpieces. I also have a great musical 
+        curiosity: I like to explore all styles, discover new sounds and share them with my friends. At the same time, 
+        I have been playing volleyball for two to three years, not competitively but enthusiastically, because I appreciate 
+        the collective and dynamic aspect of team sports.`,
+        'about-text3': `I really enjoy programming and developing applications, particularly 
+        since a remarkable internship that I did at ECOSM, a company specialized in software design 
+        subtitling. This experience allowed me to discover the exciting link between computer and audiovisual, 
+        an area in which I would like to invest more today.`,
+        'about-text4': `At the end of my BUT, I would like to enter directly into the professional world as 
+        developer, ideally in the audiovisual sector. However, I retain the option of engaging in a 
+        master in Paris open, in order to continue developing my skills and seize new opportunities.`,
 
         // Timeline
         'timeline-title': 'My Courses',
