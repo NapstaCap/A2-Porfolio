@@ -782,3 +782,9 @@ nav a:hover {
         min-width: 100%;
     }
 }
+
+.competence-item a {
+    color: #E0E0E0;
+    text-decoration: none;
+    transition: color 0.3s;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script src="../js/translations.js" defer></script>
+</head>
+
+<body>
+<div class="language-selector">
+    <button class="lang-btn" onclick="changeLanguage('fr')">FR</button>
+    <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
+</div>
+<nav>
+    <a href="../index.html" data-translate="nav-home"></a>
+    <a href="infos.html" data-translate="nav-about"></a>
+    <a href="../index.html#projets" data-translate="nav-projects"></a>
+    <a href="contact.html" data-translate="nav-contact"></a>
+</nav>
+<!-- Contenu de la page -->
+<section class="project">
+    <h2 data-translate="apprentissage-skill4"></h2>
+    <div class="about-content">
+
+        <div id="niv1" class="project-item">
+            <h2 data-translate="niv1skill3"></h2>
+
+            <h3 data-translate="skill4-ac1lv1"></h3>
+            <h4 data-translate="level-yes"></h4>
+            <h4 data-translate="skill3-text1"></h4>
+
+            <h3 data-translate="skill4-ac2lv1"></h3>
+            <h4 data-translate="level-superyes"></h4>
+            <h4 data-translate="skill3-text2"></h4>
+
+            <h3 data-translate="skill4-ac3lv1"></h3>
+            <h4 data-translate="level-yes"></h4>
+            <h4 data-translate="skill3-text3"></h4>
+
+            <h3 data-translate="skill4-ac4lv1"></h3>
+            <h4 data-translate="level-still"></h4>
+            <h4 data-translate="skill3-text4"></h4>
+
+        </div>
+
+        <div id="niv2" class="project-item">
+            <h2 data-translate="niv2skill3"></h2>
+
+            <h3 data-translate="skill3-ac1lv2"></h3>
+            <h4 data-translate="level-superyes"></h4>
+            <div class="project-buttons">
+                <a href="projet-php.html" class="btn" data-translate="btn-php"></a>
+            </div>
+
+            <h3 data-translate="skill3-ac2lv2"></h3>
+            <h4 data-translate="level-still"></h4>
+            <div class="project-buttons">
+                <a href="stage-ecosm.html" class="btn" data-translate="btn-stage-ecosm"></a>
+            </div>
+
+            <h3 data-translate="skill3-ac3lv2"></h3>
+            <h4 data-translate="level-still"></h4>
+            <div class="project-buttons">
+                <a href="projet-php.html" class="btn" data-translate="btn-php"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3 data-translate="nav-about"></h3>
+            <p data-translate="footer-text"></p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul class="footer-links">
+                <li><a href="../index.html" data-translate="nav-home"></a></li>
+                <li><a href="infos.html" data-translate="nav-about"></a></li>
+                <li><a href="../index.html#projets" data-translate="nav-projects"></a></li>
+                <li><a href="contact.html" data-translate="nav-contact"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p data-translate="footer-rights"></p>
+    </div>
+</footer>
+</body>
+
+</html>

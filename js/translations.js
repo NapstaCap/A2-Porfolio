@@ -202,7 +202,19 @@ const translations = {
         'ecosm-text3': `Bien que la durée de ce stage fut courte, ce fut une expérience plus que bénéfique, 
         j'ai pu explorer de multiples compétences, accompagné de personnes très bienveillantes et très pédagogue, avec des projets vraiment intéressants.`,
         'ecosm-solo': 'Travail seul supervisé',
-        'ecosm-report': 'Rapport de stage'
+        'ecosm-report': 'Rapport de stage',
+
+        /*
+        ------------- Compétence 3 ---------------------
+         */
+        'level-still': `Niveau : En cours d'acquisition`,
+        'level-yes': `Niveau : Acquis`,
+        'level-superyes': `Niveau : Maitrisée`,
+        'skill3-text1': `Je n'ai pas de projets sur ce portfolio pour illustrer cette compétence.`,
+        'skill3-text2': `Je n'ai pas de projets sur ce portfolio pour illustrer cette compétence, néanmoins j'utilise GitLab et GitHub sur tout mes projets.`,
+        'skill3-text3': `Je n'ai pas de projets sur ce portfolio pour illustrer cette compétence, 
+        j'ai appris en debut de première année à installer un poste Linux, puis en deuxième année un deux machines virtuelles Windows et Linux.`,
+        'skill3-text4': `Je n'ai pas de projets sur ce portfolio pour illustrer cette compétence. `,
     },
     en: {
         /*
@@ -406,8 +418,19 @@ const translations = {
         'ecosm-text3': `Although the duration of this internship was short, it was a more than beneficial experience, 
         I was able to explore multiple skills, accompanied by very caring people and very pedagogue, with really interesting projects.`,
         'ecosm-solo': 'Work alone supervised',
-        'ecosm-report': 'Internship report'
+        'ecosm-report': 'Internship report',
 
+        /*
+        ------------- Compétence 3 ---------------------
+         */
+        'level-still': `Level : Under Acquisition`,
+        'level-yes': `Level : Acquired`,
+        'level-superyes': `Level : Mastered`,
+        'skill3-text1': `I do not have projects on this portfolio to illustrate this skill.`,
+        'skill3-text2': `I don’t have projects on this portfolio to illustrate this skill, nevertheless I use GitLab and GitHub on all my projects.`,
+        'skill3-text3': `I do not have projects on this portfolio to illustrate this skill, 
+        I learned in the first year to install a Linux machine, then in the second year a two virtual machines Windows and Linux.`,
+        'skill3-text4': `I do not have projects on this portfolio to illustrate this skill.`,
     }
 };
 
