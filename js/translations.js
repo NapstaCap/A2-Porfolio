@@ -1,12 +1,18 @@
 const translations = {
     fr: {
-        // Navigation
+        /*
+        ------------- Navigation ---------------------
+         */
+
         'nav-home': 'Accueil',
         'nav-projects': 'Projets',
         'nav-contact': 'Contact',
         'nav-about': 'À propos',
 
-        // Page d'accueil
+        /*
+        ------------- Page d'accueil ---------------------
+         */
+
         'hero-subtitle': 'Étudiant en BUT Informatique',
         'projects-title': 'Mes Projets',
         'btn-java': 'Projet Java',
@@ -16,13 +22,19 @@ const translations = {
         'apprentissage-title': `Mon Portfolio d'Apprentissage`,
         'btn-apprentissage2': 'Deuxième année',
 
-        // Page contact
+        /*
+        ------------- Page contact ---------------------
+         */
+
         'contact-title': 'Me Contacter',
         'btn-email': 'Email',
         'btn-linkedin': 'LinkedIn',
         'btn-cv': 'Télécharger CV',
 
-        // Page à propos
+        /*
+        ------------- Page a propos ---------------------
+         */
+
         'about-title': 'À propos de moi',
         'skills-title': 'Mes Compétences',
         'about-text1': `Je m'appelle Dorian BARNIER, étudiant en deuxième année de BUT Informatique à 
@@ -40,7 +52,10 @@ const translations = {
         développeur, idéalement dans le secteur de l’audiovisuel. Je garde cependant l’option de m’engager dans un 
         master sur Paris ouverte, afin de continuer à développer mes compétences et saisir de nouvelles opportunités.`,
 
-        // Timeline
+        /*
+        ------------- Timeline ---------------------
+         */
+
         'timeline-title': 'Mes formations',
         'timeline-bac': 'BAC STI2D',
         'timeline-but1': 'BUT Informatique - 1ère année',
@@ -48,17 +63,26 @@ const translations = {
         'timeline-lycee': 'Lycée Jean Lurçat à Martigues',
         'timeline-iut': 'IUT Montpellier-Sète',
 
-        // Footer
+        /*
+        ------------- Footer ---------------------
+         */
+
         'footer-text': `Étudiant en deuxième année de BUT Informatique à l'IUT Montpellier-Sète`,
         'footer-rights': '© 2025 Dorian BARNIER. Tous droits réservés.',
 
-        // Page projets*
+        /*
+        ------------- Page projets ---------------------
+         */
+
         'project-skills': `Compétences demandées`,
         'project-group': `Travail en groupe`,
         'project-agile': `Méthodes agiles`,
         'project-duo': `Travail en binôme`,
 
-        // Project Php
+        /*
+        ------------- Projet php ---------------------
+         */
+
         'php-title': `Projet Php - Site d'avis de poursuite d'étude`,
         'php-text1': `Dans un contexte où les parcours académiques deviennent de plus en plus diversifiés et compétitifs, 
         les établissements d'enseignement supérieur sont confrontés à devoir évaluer efficacement le candidatures des étudiants 
@@ -77,7 +101,10 @@ const translations = {
                     un projet, mais aussi d'utiliser l'apprentissage du langage Php et l'utilisation de phpMyAdmin`,
         'php-report': `Rapport de projet`,
 
-        // Projet Java
+        /*
+        ------------- Projet java ---------------------
+         */
+
         'java-title': `Projet Java - Jeu de société "Trains"`,
         'java-text1': `Le but de ce projet est de produire une implémentation en Java du jeu de plateau japonais Trains sur
                     une durée d'un mois.`,
@@ -93,13 +120,19 @@ const translations = {
                     dans un projet d'une plus grande envergure que tout nos autres projets de groupes faits
                     précédemment.`,
 
-        // Projet NDI
+        /*
+        ------------- Projet NDI ---------------------
+         */
+
         'ndi-title': `Projet NDI - Site web sur l'eau et l'environnement`,
         'ndi-text': `Lors d'un évènement nommé "La nuit de l'info" nous avons du réaliser en groupe un site web dans la nuit sur le
                     thème de l'eau et l'environnement.`,
         'ndi-website': `Le site web`,
 
-        // Apprentissage
+        /*
+        ------------- Apprentissage ---------------------
+         */
+
         'skill3': 'Compétence 3',
         'skill4': 'Compétence 4',
         'skill5': 'Compétence 5',
@@ -116,7 +149,47 @@ const translations = {
         'apprentissage-skill5': `Compétence 5 : Conduire un projet`,
         'apprentissage-skill6': `Compétence 6 : Collaborer au sein d’une équipe informatique`,
 
-        // Stage ECOSM
+        /*
+        ------------- Compétences ---------------------
+         */
+
+        // Compétence 3 lv1
+        'skill3-ac1lv1': `AC 1: Identifier les différents composants (matériels et logiciels) d’un système numérique`,
+        'skill3-ac2lv1': `AC 2: Utiliser les fonctionnalités de base d’un système multitâches/multiutilisateurs`,
+        'skill3-ac3lv1': `AC 3: Installer et configurer un système d’exploitation et des outils de développement`,
+        'skill3-ac4lv1': `AC 4: Configurer un poste de travail dans un réseau d’entreprise`,
+
+        // Compétence 3 lv2
+        'skill3-ac1lv2': `AC 1: Concevoir et développer des applications communicantes`,
+        'skill3-ac2lv2': `AC 2: Configurer un poste de travail dans un réseau d’entreprise`,
+        'skill3-ac3lv2': `AC 3: Déployer des services dans une architecture réseau`,
+
+        // Compétence 4 lv1
+        'skill4-ac1lv1': `AC 1: Mettre à jour et interroger une base de données relationnelle (en requêtes directes ou à travers une application)`,
+        'skill4-ac2lv1': `AC 2: Visualiser des données`,
+        'skill4-ac3lv1': `AC 3: Concevoir une base de données relationnelle à partir d’un cahier des charges`,
+
+        // Compétence 4 lv2
+        'skill4-ac1lv2': `AC 1: Optimiser les modèles de données de l’entreprise`,
+        'skill4-ac2lv2': `AC 2: Assurer la confidentialité des données (intégrité et sécurité)`,
+        'skill4-ac3lv2': `AC 3: Organiser la restitution de données à travers la programmation et la visualisation`,
+        'skill4-ac4lv2': `AC 4: Manipuler des données hétérogènes`,
+
+        // Compétence 5 lv1
+        'skill5-ac1lv1': `AC 1: Appréhender les besoins du client et de l’utilisateur`,
+        'skill5-ac2lv1': `AC 2: Mettre en place les outils de gestion de projet`,
+        'skill5-ac3lv1': `AC 3: Identifier les acteurs et les différentes phases d’un cycle de développement`,
+
+        // Compétence 5 lv2
+        'skill5-ac1lv2': `AC 1: Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information`,
+        'skill5-ac2lv2': `AC 2: Formaliser les besoins du client et de l’utilisateur`,
+        'skill5-ac3lv2': `AC 3: Identifier les critères de faisabilité d’un projet informatique`,
+        'skill5-ac4lv2': `AC 4: Définir et mettre en œuvre une démarche de suivi de projet`,
+
+        /*
+        ------------- Stage ECOSM ---------------------
+         */
+
         'ecosm-title': `Stage chez ECOSM - Développement Web/Développement Logiciel`,
         'ecosm-text1': `Lors de ma deuxième année en BUT Informatique à l'IUT Montpellier-Sète, un stage de 10 à 12 semaines m'a été imposé.
         Les contraintes de temps étant très restreintes, je n'ai pu avoir qu'un stage de 8 semaines au sein de l'entreprise ECOSM, 
@@ -132,13 +205,19 @@ const translations = {
         'ecosm-report': 'Rapport de stage'
     },
     en: {
-        // Navigation
+        /*
+        ------------- Navigation ---------------------
+         */
+
         'nav-home': 'Home',
         'nav-projects': 'Projects',
         'nav-contact': 'Contact',
         'nav-about': 'About',
 
-        // Page d'accueil
+        /*
+        ------------- Page d'accueil ---------------------
+         */
+
         'hero-subtitle': 'Student in Computer Science BUT',
         'projects-title': 'My Projects',
         'btn-java': 'Java Project',
@@ -148,13 +227,19 @@ const translations = {
         'apprentissage-title': `My Learning Portfolio`,
         'btn-apprentissage2': 'Second year',
 
-        // Page contact
+        /*
+        ------------- Page contact ---------------------
+         */
+
         'contact-title': 'Contact Me',
         'btn-email': 'Email',
         'btn-linkedin': 'LinkedIn',
         'btn-cv': 'Download CV',
 
-        // Page à propos
+        /*
+        ------------- Page a propos ---------------------
+         */
+
         'about-title': 'About Me',
         'skills-title': 'My Skills',
         'about-text1': `My name is Dorian BARNIER, a second-year student at IUT Montpellier-Sète’s BUT Computer Science 
@@ -172,7 +257,10 @@ const translations = {
         developer, ideally in the audiovisual sector. However, I retain the option of engaging in a 
         master in Paris open, in order to continue developing my skills and seize new opportunities.`,
 
-        // Timeline
+        /*
+        ------------- Timeline ---------------------
+         */
+
         'timeline-title': 'My Courses',
         'timeline-bac': 'STI2D High School Diploma',
         'timeline-but1': 'Computer Science BUT - 1st year',
@@ -180,17 +268,26 @@ const translations = {
         'timeline-lycee': 'Jean Lurçat High School in Martigues',
         'timeline-iut': 'IUT Montpellier-Sète',
 
-        // Footer
+        /*
+        ------------- Footer ---------------------
+         */
+
         'footer-text': `Second year student of Computer Science BUT at the IUT Montpellier-Sète`,
         'footer-rights': '© 2025 Dorian BARNIER. All rights reserved.',
 
-        // Page projets*
+        /*
+        ------------- Page projets ---------------------
+         */
+
         'project-skills': `Skills required`,
         'project-group': `Group work`,
         'project-agile': `Agile methods`,
         'project-duo': `Work in pairs`,
 
-        // Projet Php
+        /*
+        ------------- Projet Php ---------------------
+         */
+
         'php-title': `Php Project - Continuing Study Notice Website`,
         'php-text1': `In a context where academic careers are becoming increasingly diverse and competitive, 
         higher education institutions are faced with the need to effectively assess student applications 
@@ -209,7 +306,10 @@ const translations = {
                     a project, but also to use learning the Php language and using phpMyAdmin`,
         'php-report': `Project report`,
 
-        // Projet Java
+        /*
+        ------------- Projet Java ---------------------
+         */
+
         'java-title': `Java Project - Board game "Trains"`,
         'java-text1': `The goal of this project is to produce a Java implementation of the Japanese board game Trains on
                     a period of one month.`,
@@ -225,13 +325,19 @@ const translations = {
                     in a larger project than any of our other group projects made
                     previously.`,
 
-        // Projet NDI
+        /*
+        ------------- Projet NDI ---------------------
+         */
+
         'ndi-title': `NDI Project - Water and environment website`,
         'ndi-text': `During an event called "The night of the info" we had to realize a website in the night on the
                     water and the environment.`,
         'ndi-website': `The website`,
 
-        // Apprentissage
+        /*
+        ------------- Apprentissage ---------------------
+         */
+
         'skill3': 'Skill 3',
         'skill4': 'Skill 4',
         'skill5': 'Skill 5',
@@ -248,7 +354,47 @@ const translations = {
         'apprentissage-skill5': `Skill 5 : Lead a project`,
         'apprentissage-skill6': `Skill 6 : Collaborate as an IT team`,
 
-        // Stage ECOSM
+        /*
+        ------------- Compétences ---------------------
+         */
+
+        // Compétence 3 lv1
+        'skill3-ac1lv1': `AC 1: Identify the different components (hardware and software) of a digital system`,
+        'skill3-ac2lv1': `AC 2: Use the basic features of a multitasking/multi-user system`,
+        'skill3-ac3lv1': `AC 3: Install and configure an operating system and development tools`,
+        'skill3-ac4lv1': `AC 4: Configuring a workstation in an enterprise network`,
+
+        // Compétence 3 lv2
+        'skill3-ac1lv2': `AC 1: Design and develop communicating applications`,
+        'skill3-ac2lv2': `AC 2: Set up a workstation in an enterprise network`,
+        'skill3-ac3lv2': `AC 3: Deploying services in a network architecture`,
+
+        // Compétence 4 lv1
+        'skill4-ac1lv1': `AC 1: Update and query a relational database (in direct queries or through an application)`,
+        'skill4-ac2lv1': `AC 2: Viewing data`,
+        'skill4-ac3lv1': `AC 3: Designing a relational database from a specification`,
+
+        // Compétence 4 lv2
+        'skill4-ac1lv2': `AC 1: Optimizing business data models`,
+        'skill4-ac2lv2': `AC 2: Ensure data confidentiality (integrity and security)`,
+        'skill4-ac3lv2': `AC 3: Organize data retrieval through programming and visualization`,
+        'skill4-ac4lv2': `AC 4: Handling heterogeneous data`,
+
+        // Compétence 5 lv1
+        'skill5-ac1lv1': `AC 1: Understanding the needs of the client and user`,
+        'skill5-ac2lv1': `AC 2: Implement project management tools`,
+        'skill5-ac3lv1': `AC 3: Identify the actors and different phases of a development cycle`,
+
+        // Compétence 5 lv2
+        'skill5-ac1lv2': `AC 1: Identify processes in an organization to improve information systems`,
+        'skill5-ac2lv2': `AC 2: Formalizing the needs of the client and user`,
+        'skill5-ac3lv2': `AC 3: Identify the criteria for feasibility of an IT project`,
+        'skill5-ac4lv2': `AC 4: Define and implement a project monitoring approach`,
+
+        /*
+        ------------- Stage ECOSM ---------------------
+         */
+
         'ecosm-title': `Internship at ECOSM - Web Development/Software Development`,
         'ecosm-text1': `During my second year in BUT Informatique at the IUT Montpellier-Sète, an internship of 10 to 12 weeks was imposed on me.
         The time constraints being very limited, I was only able to have an 8-week internship at ECOSM, 
@@ -261,6 +407,7 @@ const translations = {
         I was able to explore multiple skills, accompanied by very caring people and very pedagogue, with really interesting projects.`,
         'ecosm-solo': 'Work alone supervised',
         'ecosm-report': 'Internship report'
+
     }
 };
 
